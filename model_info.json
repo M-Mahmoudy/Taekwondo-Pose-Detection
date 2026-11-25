@@ -1,0 +1,29 @@
+{
+    "model": "Random Forest",
+    "classes": 16,
+    "samples": 57,
+    "features_before_selection": 360,
+    "features_after_selection": 75,
+    "test_accuracy": 0.4375,
+    "class_names": [
+        "ab_chagi",
+        "ab_dollyo_chogi",
+        "anmoki",
+        "aremoki",
+        "banda_dollyo_chagi",
+        "dollyo_chagi",
+        "double_chagi",
+        "double_dollyo_chagi",
+        "lei_lei_chagi",
+        "mom_dollyo_chagi",
+        "momtong_maki",
+        "ner_yo_chagi",
+        "olgol_maki",
+        "sonnal_maki",
+        "tichogi",
+        "yop_chogi"
+    ],
+    "feature_type": "Temporal Features",
+    "estimators": 1000,
+    "class_weight": "balanced"
+}
